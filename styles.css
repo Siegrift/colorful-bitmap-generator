@@ -1,0 +1,30 @@
+body {
+    -webkit-print-color-adjust: exact;
+}
+
+.bitmapCell {
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+.bitmapRow {
+    display: flex;
+    width: 250px;
+}
+
+.bitmap {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    margin: 37px;
+    width: 250px;
+    height: 250px;
+}
+
+#bitmaps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
